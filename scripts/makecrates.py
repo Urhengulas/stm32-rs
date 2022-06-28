@@ -35,7 +35,8 @@ CRATE_DOC_FEATURES = {
     "stm32g4": ["critical-section", "rt", "stm32g431", "stm32g441", "stm32g474", "stm32g484"],
     "stm32mp1": ["critical-section", "rt", "stm32mp157"],
     "stm32wl": ["critical-section", "rt", "stm32wle5", "stm32wl5x_cm4"],
-    "stm32wb": ["critical-section", "rt", "stm32wb55"]
+    "stm32wb": ["critical-section", "rt", "stm32wb55"],
+    "stm32u5": ["critical-section", "rt", "stm32u575", "stm32u585"]
 }
 
 CRATE_DOC_TARGETS = {
@@ -54,7 +55,8 @@ CRATE_DOC_TARGETS = {
     "stm32g4": "thumbv7em-none-eabihf",
     "stm32mp1": "thumbv7em-none-eabihf",
     "stm32wl": "thumbv7em-none-eabi",
-    "stm32wb": "thumbv7em-none-eabihf"
+    "stm32wb": "thumbv7em-none-eabihf",
+    "stm32u5": "thumbv8m.main-none-eabi",
 }
 
 CARGO_TOML_TPL = """\
